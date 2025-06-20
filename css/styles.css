@@ -92,15 +92,15 @@
     /* color-1(#5F9295)
      * color-2(#2D2327)
      */
-    --color-1                      : hsla(183, 22%, 48%, 1);
+    --color-1                      : hsla(257, 22%, 48%, 1);
     --color-2                      : hsla(336, 13%, 16%, 1);
 
     /* theme color variations
      */
-    --color-1-lighter              : hsla(183, 22%, 68%, 1);
-    --color-1-light                : hsla(183, 22%, 58%, 1);
-    --color-1-dark                 : hsla(183, 22%, 38%, 1);
-    --color-1-darker               : hsla(183, 22%, 28%, 1);
+    --color-1-lighter              : hsla(257, 22%, 68%, 1);
+    --color-1-light                : hsla(257, 22%, 58%, 1);
+    --color-1-dark                 : hsla(257, 22%, 38%, 1);
+    --color-1-darker               : hsla(257, 22%, 28%, 1);
 
     --color-2-lighter              : hsla(336, 13%, 36%, 1);
     --color-2-light                : hsla(336, 13%, 26%, 1);
@@ -171,13 +171,14 @@
 
     /* preloader
      */
-    --color-preloader-bg           : #CFE6E8;
+    --color-preloader-bg           : #d6cfe8;
     --color-loader                 : var(--color-text-dark);
     --color-loader-light           : var(--color-1-lighter);
 
     /* others
      */
-    --color-body                   : #CFE6E8;
+    /* --color-body                   : #CFE6E8; */
+    --color-body                   : #d6cfe8;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
@@ -3247,7 +3248,7 @@ img.u-pull-left {
     aspect-ratio        : 1/1;
     width               : 100%;
     background-color    : var(--color-gray-4);
-    background-image    : url(../images/intro-bg.jpg);
+    background-image    : url(../images/vinh_grad_edit.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3687,7 +3688,7 @@ img.u-pull-left {
 
 .folio-item__thumb a::after {
     z-index     : 1;
-    content     : "+";
+    content     : "";
     text-align  : center;
     font-family : var(--font-1);
     font-weight : 300;
